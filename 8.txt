@@ -1,0 +1,17 @@
+a) my_const -> é uma expressão que recebe dois argumentos e vai retornar o primeiro. Por exemplo x -> y -> x
+
+b) my_const True -> é uma expressão do tipo booleano que independente do tipo de argumento passado, vai retornar True.
+
+c) append -> faz a concatenação de duas listas do mesmo tipo. [a] -> [a]
+
+d)append[] -> vai ser uma função que recebe uma lista. No caso em questão a função ao fazer a concatenação de uma lista vazia, vai retornar a mesma lista. Contudo, se colocar um segundo argumento, a função irá retornar esse novo argumento.
+
+e) append [True, False] -> essa função recebe uma lista de booleanos "True" e retorna uma lista de booleanos "False".
+
+f) append [3] ['a', 'b'] -> aqui irá acontecer um erro de tipo, pois está tentando fazer a concatenação de um tipo inteiro("int"; 3), em um tipo caractere("char"; 'a', 'b').
+
+g) append "squid" ['a', 'b'] -> essa função irá fazer a concatenação do tipo string ("squid"), para uma lista do tipo char, resultado em uma lista de caracteres
+
+h) my_map -> é uma função que recebe dois parâmetros, onde o primeiro será uma função e o segundo uma lista de elementos. Dessa forma, o "my_map" aplica a função passada no primeiro parâmetro em cada elemento da lista.
+
+i) my_map (my_const True) -> como "my_const True" é uma expressão que independente do tipo passado vai retornar True que é um booleano, então essa função vai retornar uma lista de booleano.
