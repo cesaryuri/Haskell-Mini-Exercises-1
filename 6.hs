@@ -1,4 +1,3 @@
-dobrolist :: [Double]
-dobrolist = multval 10
-  where
-    multval x = x : multval (x * 2)
+doubles :: [Int]
+doubles = doublesvalor 10
+doublesvalor x = x : doublesvalor (x * 2)
